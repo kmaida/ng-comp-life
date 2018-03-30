@@ -7,12 +7,12 @@ module.exports = function(app) {
     res.send('API works!');
   });
 
-  // GET dinosaurs data (instant local)
+  // GET dinosaurs data
   app.get('/api/dinosaurs', (req, res) => {
     res.send(dinosaurs);
   });
 
-  // GET dinosaurs data (delayed to simulate non-local)
+  // GET dinosaurs data (delayed to simulate non-local environment)
   app.get('/api/delay/dinosaurs', (req, res) => {
     setTimeout(() => {
       res.send(dinosaurs);
