@@ -1,0 +1,19 @@
+{
+  "name": "ng-comp-life-server",
+  "version": "0.1.0",
+  "description": "Node.js server that serves local and simulated live (delayed) simple GET endpoints.",
+  "repository": "https://github.com/kmaida/ng-comp-life-server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server"
+  },
+  "author": "Kim Maida",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "immutable-sort": "^0.1.0"
+  },
+  "devDependencies": {}
+}
