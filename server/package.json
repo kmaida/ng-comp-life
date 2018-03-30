@@ -1,7 +1,7 @@
 {
   "name": "ng-comp-life-server",
   "version": "0.1.0",
-  "description": "Node.js server that serves local and simulated live (delayed) simple GET endpoints.",
+  "description": "Node.js server that serves a local and simulated live (delayed) simple GET endpoint.",
   "repository": "https://github.com/kmaida/ng-comp-life-server",
   "main": "server.js",
   "scripts": {
@@ -12,8 +12,7 @@
   "dependencies": {
     "body-parser": "^1.18.2",
     "cors": "^2.8.4",
-    "express": "^4.16.3",
-    "immutable-sort": "^0.1.0"
+    "express": "^4.16.3"
   },
   "devDependencies": {}
 }

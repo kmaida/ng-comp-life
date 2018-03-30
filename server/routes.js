@@ -1,11 +1,5 @@
-// Dependencies
-const sort = require('immutable-sort');
 // Data
 const dinosaurs = require('./data/dinosaurs.json');
-
-function randomDelay() {
-  return Math.random() * 4000;
-}
 
 module.exports = function(app) {
   // API works (public)
@@ -18,10 +12,10 @@ module.exports = function(app) {
     res.send(dinosaurs);
   });
 
-  // GET dinosaurs data
+  // GET dinosaurs data (delayed to simulate non-local)
   app.get('/api/delay/dinosaurs', (req, res) => {
     setTimeout(() => {
       res.send(dinosaurs);
-    }, randomDelay());
+    }, Math.random() * 4000);
   });
 };
