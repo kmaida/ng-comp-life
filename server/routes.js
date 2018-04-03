@@ -16,6 +16,6 @@ module.exports = function(app) {
   app.get('/api/delay/dinosaurs', (req, res) => {
     setTimeout(() => {
       res.send(dinosaurs);
-    }, Math.random() * 4000);
+    }, Math.random() * 3000);
   });
 };
