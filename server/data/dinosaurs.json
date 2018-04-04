@@ -50,16 +50,6 @@
     "info": "<em>Dracorex hogwartsia</em> was a pachycephalosaur that did not have a domed head. Instead, its skull was adorned with spikes and frills reminiscent of a dragon. A skull was discovered in the Hell Creek Formation in South Dakota and donated to the Children's Museum of Indianapolis in 2004. Its name was inspired by J.K. Rowling's Harry Potter series and the young visitors to the children's museum."
   },
   {
-    "name": "Elasmosaurus",
-    "pronunciation": "ee-LAZ-mo-sore-us",
-    "meaningOfName": "thin plate lizard",
-    "diet": "carnivorous",
-    "length": "14m",
-    "period": "Late Cretaceous",
-    "mya": "80.5",
-    "info": "Elasmosaurus was an aquatic dinosaur with an extremely long neck that likely fed on other smaller aquatic fauna like fish, molluscs, and squid. E.D. Cope mistakenly placed the skull of an Elasmosaurus on the much shorter tail rather than the extremely long neck."
-  },
-  {
     "name": "Giganotosaurus",
     "pronunciation": "jig-a-NOT-o-sore-us",
     "meaningOfName": "giant southern lizard",
@@ -98,6 +88,16 @@
     "period": "Early Jurassic",
     "mya": "205-190",
     "info": "Jingshanosaurus was one of the last prosauropods, a long-necked herbivore able to walk on two legs."
+  },
+  {
+    "name": "Mosasaurus",
+    "pronunciation": "MOZE-uh-sore-us",
+    "meaningOfName": "Meuse lizard",
+    "diet": "carnivorous",
+    "length": "15m",
+    "period": "Late Cretaceous",
+    "mya": "70-66",
+    "info": "Mosasaurus was not a dinosaur, but was, in fact, a carnivorous aquatic lizard."
   },
   {
     "name": "Ouranosaurus",
