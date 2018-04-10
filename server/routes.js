@@ -26,14 +26,16 @@ module.exports = function(app) {
 
   // POST mark dino as a favorite
   app.post('/api/fav', (req, res) => {
-    const dinoName = req.body.name;
-    const matchingDino = dinos.filter(d => d.name === dinoName)[0];
+    setTimeout(() => {
+      const dinoName = req.body.name;
+      const matchingDino = dinos.filter(d => d.name === dinoName)[0];
 
-    if (!matchingDino) {
-      res.status(404).send({error: `Cannot find a dinosaur called "${dinoName}"`});
-    } else {
-      matchingDino.favorite = true;
-      res.send(matchingDino);
-    }
+      if (!matchingDino) {
+        res.status(404).send({error: `Cannot find a dinosaur called "${dinoName}"`});
+      } else {
+        matchingDino.favorite = true;
+        res.send(matchingDino);
+      }
+    }, randomDelay());
   });
 };
