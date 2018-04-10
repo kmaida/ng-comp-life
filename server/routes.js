@@ -12,15 +12,18 @@ module.exports = function(app) {
     res.send('API works!');
   });
 
-  // GET dinosaurs data
-  app.get('/api/dinosaurs', (req, res) => {
-    res.send(dinos);
-  });
-
   // GET dinosaurs data (delayed to simulate non-local environment)
-  app.get('/api/delay/dinosaurs', (req, res) => {
+  app.get('/api/dinosaurs', (req, res) => {
     setTimeout(() => {
       res.send(dinos);
+    }, randomDelay());
+  });
+
+  // GET one special dinosaur
+  app.get('/api/special', (req, res) => {
+    setTimeout(() => {
+      const giganotosaurus = dinos.filter(dino => dino.name === 'Giganotosaurus')[0];
+      res.send(giganotosaurus);
     }, randomDelay());
   });
 
