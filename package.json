@@ -1,0 +1,13 @@
+{
+  "name": "ng-comp-life",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "concurrently \"cd client && ng serve\" \"cd server && nodemon server\""
+  },
+  "private": true,
+  "dependencies": {
+    "concurrently": "^3.5.1"
+  },
+  "devDependencies": {}
+}
