@@ -22,6 +22,8 @@ npm install
 npm run start
 ```
 
+Server runs on `http://localhost:3005` and Angular app runs on `http://localhost:4200`.
+
 ## License
 
 [MIT](LICENSE) © Kim Maida 2018
