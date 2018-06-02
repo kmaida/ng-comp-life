@@ -1,11 +1,16 @@
 {
   "name": "ng-comp-life",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "license": "MIT",
   "scripts": {
-    "start": "concurrently \"cd client && ng serve\" \"cd server && nodemon server\""
+    "start": "concurrently \"cd client && ng serve\" \"cd server && node server\""
   },
-  "private": true,
+  "private": false,
+  "author": "Kim Maida",
+  "repository": {
+    "type": "Git",
+    "url": "https://github.com/kmaida/ng-comp-life"
+  },
   "dependencies": {
     "concurrently": "^3.5.1"
   },
