@@ -1,6 +1,6 @@
 {
   "name": "ng-comp-life",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "license": "MIT",
   "scripts": {
     "start": "concurrently \"cd client && ng serve\" \"cd server && node server\""
@@ -12,7 +12,7 @@
     "url": "https://github.com/kmaida/ng-comp-life"
   },
   "dependencies": {
-    "concurrently": "^3.5.1"
+    "concurrently": "^4.0.1"
   },
   "devDependencies": {}
 }
