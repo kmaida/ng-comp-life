@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "license": "MIT",
   "scripts": {
-    "start": "concurrently \"cd client && ng serve\" \"cd server && node server\""
+    "start": "concurrently \"cd client && ng serve\" \"cd server && nodemon server\""
   },
   "private": false,
   "author": "Kim Maida",
@@ -12,7 +12,9 @@
     "url": "https://github.com/kmaida/ng-comp-life"
   },
   "dependencies": {
-    "concurrently": "^4.0.1"
+    "concurrently": "^4.1.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
 }
